@@ -29,6 +29,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	/* Add this to your CSS file */
+.mobile-header-spacing {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+/* Use media queries to apply the margin specifically for mobile devices */
+@media (max-width: 768px) {
+    .mobile-header-spacing {
+        margin-top: 20px; /* Adjust the value as needed */
+    }
+}
+
 body {
 	line-height: 1;
 }
